@@ -6,6 +6,6 @@ handlers:
 - url: /style.css
   static_files: style.css
   upload: style.css
-- url: /.*\.(jpg|png|gif)
+- url: /.png
   static_files: /path/to/your/images/*
   upload: /path/to/your/images/*
