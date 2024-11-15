@@ -1,0 +1,11 @@
+runtime: python39  # Atau runtime lain yang Anda pilih
+handlers:
+- url: /.*
+  static_files: index.html
+  upload: index.html
+- url: /style.css
+  static_files: style.css
+  upload: style.css
+- url: /.*\.(jpg|png|gif)
+  static_files: /path/to/your/images/*
+  upload: /path/to/your/images/*
