@@ -10,6 +10,3 @@ handlers:
   static_files: index.html
   upload: index.html
   
-- url: /.png
-  static_files: "https://storage.cloud.google.com/profil_ku/foto%20bangkit.PNG"
-  upload: "https://storage.cloud.google.com/profil_ku/foto%20bangkit.PNG"
