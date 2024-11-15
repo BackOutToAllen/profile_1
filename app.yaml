@@ -7,5 +7,5 @@ handlers:
   static_files: style.css
   upload: style.css
 - url: /.png
-  static_files: /path/to/your/images/*
-  upload: /path/to/your/images/*
+  static_files: "https://storage.cloud.google.com/profil_ku/foto%20bangkit.PNG"
+  upload: "https://storage.cloud.google.com/profil_ku/foto%20bangkit.PNG"
